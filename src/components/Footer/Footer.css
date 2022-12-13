@@ -1,0 +1,36 @@
+.footer-image {
+  position: relative;
+  background-color: var(--red);
+  background-image: url(https://nolt.io/static/dist/images/landing/footer.2353da24de.svg),
+    linear-gradient(to bottom, var(--red), var(--yellow));
+  background-position: 80% bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px 0px 38vh;
+  overflow: hidden;
+}
+
+.footer-container {
+  background: var(--white);
+  padding: 0px 1rem 2rem;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #0000004d;
+  font-size: 0.9rem;
+}
+
+.footer-link + ::before {
+  content: "·";
+  padding: 0px 0.75rem;
+}
