@@ -1,0 +1,78 @@
+
+.nav-container{
+    display: flex;
+    padding: 1.5rem 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.nav-heading-container{
+    flex: 1 1 0%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.nav-logo{
+    position: relative;
+    display: block;
+    background-image: url(https://nolt.io/static/dist/images/logo-word-light.53dd85bf77.png);
+    background-size: auto 2rem;
+    background-repeat: no-repeat;
+    height: 2rem;
+    width: 85px;
+}
+
+.nav-links-container--desktop{
+
+}
+
+.nav-links-container--desktop > div > *{
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.nav-links{
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 2rem;
+    line-height: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: initial;
+    font-weight: 400;
+    border-radius: 4px;
+    user-select: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    color: inherit;
+}
+
+.nav-links--blue{
+    margin-left: 1rem !important;
+    background: #382946;
+    font-size: 0.9rem !important;
+    min-height: 2rem;
+    padding: 0px 1rem;
+    border: 0px;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 0px 0px 0.5px, rgb(0 0 0 / 10%) 0px 1px 4px 0px;
+    width: auto;
+    margin: 0.25rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 500;
+    user-select: none;
+    white-space: nowrap;
+    outline: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: opacity 0.25s ease 0s;
+}

@@ -1,0 +1,184 @@
+[
+    {
+        "logoUrl" : "",
+        "heading": "Using Nolt",
+        "description": "Learn how to get the most out of your Nolt board.",
+        "blogs": [
+            {
+                "title": "Customize your board",
+                "url": "https://nolt.io/help/customize-board"
+            },
+            {
+                "title": "What user roles exist in Nolt?",
+                "url": "https://nolt.io/help/user-roles"
+            },
+            {
+                "title": "Styling text with Markdown",
+                "url": "https://nolt.io/help/markdown"
+            },
+            {
+                "title": "Private boards",
+                "url": "https://nolt.io/help/private-boards"
+            }
+        ]
+    },
+    {
+        "logoUrl" : "",
+        "heading": "Connect and embed",
+        "description": "Connect your Nolt board with your app and the products your team already uses.",
+        "blogs": [
+            {
+                "title": "Embed in your product",
+                "url": "https://nolt.io/help/embed"
+            },
+            {
+                "title": "Website widget",
+                "url": "https://nolt.io/help/widget"
+            },
+            {
+                "title": "Custom domains",
+                "url": "https://nolt.io/help/custom-domain"
+            },
+            {
+                "title": "Identifying users with SSO",
+                "url": "https://nolt.io/help/single-sign-on"
+            },
+            {
+                "title": "Setting up webhooks",
+                "url": "https://nolt.io/help/webhooks"
+            }
+        ]
+    },
+    {
+        "logoUrl" : "",
+        "heading": "Help us translate",
+        "description": "Don't see your language? With your help, we can solve that.",
+        "blogs": [
+            {
+                "title": "Supported languages",
+                "url": "https://nolt.io/help/supported-languages"
+            },
+            {
+                "title": "Go to Crowdin project",
+                "url": "https://crowdin.com/project/nolt"
+            }
+        ]
+    },
+    {
+        "logoUrl" : "",
+        "heading": "Managing posts",
+        "description": "A post is the fundamental unit of a Nolt board and represents user requests and ideas.",
+        "blogs": [
+            {
+                "title": "Managing posts",
+                "url": "https://nolt.io/help/posts"
+            },
+            {
+                "title": "Internal notes",
+                "url": "https://nolt.io/help/internal-notes"
+            },
+            {
+                "title": "Content moderation",
+                "url": "https://nolt.io/help/content-moderation"
+            }
+        ]
+    },
+    {
+        "logoUrl" : "",
+        "heading": "Keep everyone in the loop",
+        "description": "Communicate the big picture and keep your customers and team members updated.",
+        "blogs": [
+            {
+                "title": "Share your roadmap",
+                "url": "https://nolt.io/help/roadmap"
+            },
+            {
+                "title": "Managing statuses",
+                "url": "https://nolt.io/help/statuses"
+            }
+        ]
+    },
+    {
+        "logoUrl" : "",
+        "heading": "Connect with us",
+        "description": "Questions or feedback? Send us a support request or submit your idea to our Nolt board.",
+        "blogs": [
+            {
+                "title": "Send us an email",
+                "url": "hello@nolt.io"
+            },
+            {
+                "title": "Suggest a feature",
+                "url": "https://feedback.nolt.io/"
+            },
+            {
+                "title": "Follow us on Twitter",
+                "url": "https://twitter.com/trynolt"
+            }
+        ]
+    },
+    {
+        "logoUrl" : "",
+        "heading": "Working with fields",
+        "description": "With fields, you can build personalized workflows and store all essential data relevant to your unique needs in a central place.",
+        "blogs": [
+            {
+                "title": "Custom fields 101",
+                "url": "https://nolt.io/help/custom-fields"
+            },
+            {
+                "title": "Filtering with custom fields",
+                "url": "https://nolt.io/help/custom-fields-filtering"
+            },
+            {
+                "title": "Customizing the posting form",
+                "url": "https://nolt.io/help/custom-fields-new-post"
+            }
+        ]
+    },
+    {
+        "logoUrl" : "",
+        "heading": "Kickstart your community",
+        "description": "A Nolt board is nothing without its contributors. Learn how to foster a real sense of community across your board.",
+        "blogs": [
+            {
+                "title": "Grow your community",
+                "url": "https://nolt.io/help/community"
+            }
+        ]
+    },
+    {
+        "logoUrl" : "",
+        "heading": "Blog",
+        "description": "Helpful articles on building better products with user feedback.",
+        "blogs": [
+            {
+                "title": "What is a Feedback Board and How to Use It?",
+                "url": "https://nolt.io/blog/feedback-boards-explained"
+            },
+            {
+                "title": "6 Simple Ways to Collect Customer Feedback in 2022",
+                "url": "https://nolt.io/blog/collect-customer-feedback"
+            }
+        ]
+    },
+    {
+        "logoUrl" : "",
+        "heading": "",
+        "description": "",
+        "blogs": [
+            {
+                "title": "Terms of Service",
+                "url": "https://nolt.io/legal"
+            },
+            {
+                "title": "Privacy Policy",
+                "url": "https://nolt.io/legal#privacy"
+            },
+            {
+                "title": "Status Page",
+                "url": "https://status.nolt.io/"
+            }
+        ]
+    }
+]
