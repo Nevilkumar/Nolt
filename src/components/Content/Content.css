@@ -21,7 +21,7 @@
 .search-input {
   width: 27rem;
   background: rgba(0, 0, 0, 0.1);
-  background-image: url('/public/search.svg');
+  background-image: url("/public/search.svg");
   background-repeat: no-repeat;
   background-position: 1.2rem 1.2rem;
   background-size: 20px 20px;
@@ -44,6 +44,28 @@
 .search-input::placeholder {
   color: rgba(255, 255, 255, 0.7);
   font-family: "Source Sans Pro", sans-serif;
+}
+
+.no-results__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-results__img {
+  width: 20rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  align-self: center;
+}
+
+.no-results__content {
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  margin: 4rem 0;
 }
 
 .cards-container {
@@ -101,33 +123,41 @@
   border-bottom: 1px dotted #f2f2f2;
 }
 
-
-@media only screen and (max-width: 915px){
+@media only screen and (max-width: 915px) {
   .card {
     width: 94%;
   }
 }
-@media only screen and (max-width: 600px){
-  
-  .content-heading-container{
+
+@media only screen and (max-width: 600px) {
+  .content-heading-container {
     padding: 6rem 1rem 0;
   }
 
-  .content-heading{
+  .content-heading {
     font-size: 2rem;
   }
-  
+
   .search-input-container {
     margin: 0px auto 2rem;
   }
-  .search-input{
+
+  .search-input {
     width: 85%;
     padding: 0.8rem 1.5rem;
     background-position: 1rem 1rem;
     padding-left: 2.5rem;
     font-size: 1.2rem;
   }
-  
+
+  .no-results__img {
+    width: 15rem;
+  }
+
+  .no-results__content{
+    font-size: 1.8rem;
+  }
+
   .card {
     padding: 2rem;
     margin: 0rem 0.7rem;
