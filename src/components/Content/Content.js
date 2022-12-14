@@ -44,6 +44,20 @@ const Content = () => {
                         </div>
                     ))
                 }
+
+                <div className='card'>
+                    <ul className='card__blogs'>
+                        <li>
+                            <a href="https://nolt.io/legal" className='card__blog'>Terms of Service</a>
+                        </li>
+                        <li>
+                            <a href="https://nolt.io/legal#privacy" className='card__blog'>Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="https://status.nolt.io/" className='card__blog'>Status Page</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </>
     )

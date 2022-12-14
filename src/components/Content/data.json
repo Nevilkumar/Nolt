@@ -170,25 +170,5 @@
                 "url": "https://nolt.io/blog/collect-customer-feedback"
             }
         ]
-    },
-    {
-        "id": 10,
-        "logoUrl" : "",
-        "heading": "",
-        "description": "",
-        "blogs": [
-            {
-                "title": "Terms of Service",
-                "url": "https://nolt.io/legal"
-            },
-            {
-                "title": "Privacy Policy",
-                "url": "https://nolt.io/legal#privacy"
-            },
-            {
-                "title": "Status Page",
-                "url": "https://status.nolt.io/"
-            }
-        ]
     }
 ]

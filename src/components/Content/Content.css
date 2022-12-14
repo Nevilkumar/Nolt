@@ -12,7 +12,7 @@
 
 .search-input-container {
   width: 100%;
-  margin: 0px auto 2.5rem;
+  margin: 0px auto 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +53,7 @@
   transition: max-width 0.5s ease 0s;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   flex-wrap: wrap;
 }
 
@@ -70,8 +70,7 @@
   line-height: 1.5;
   font-weight: 400;
   padding: 2rem 2.5rem;
-  margin: 2rem 1rem;
-  min-height: 420px;
+  margin: 1rem;
 }
 
 .card__logo {
@@ -100,4 +99,28 @@
 .card__blog {
   color: var(--white);
   border-bottom: 1px dotted #f2f2f2;
+}
+
+
+
+@media only screen and (max-width: 600px){
+  
+  .content-heading{
+    font-size: 2rem;
+  }
+
+  .search-input{
+    width: 85%;
+    padding: 0.8rem 1.5rem;
+    background-position: 1rem 1rem;
+    padding-left: 2.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .card {
+    padding: 2rem;
+    margin: 0rem 0.7rem;
+    margin-top: 2rem;
+    width: 94%;
+  }
 }
