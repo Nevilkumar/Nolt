@@ -102,13 +102,24 @@
 }
 
 
-
+@media only screen and (max-width: 915px){
+  .card {
+    width: 94%;
+  }
+}
 @media only screen and (max-width: 600px){
   
+  .content-heading-container{
+    padding: 6rem 1rem 0;
+  }
+
   .content-heading{
     font-size: 2rem;
   }
-
+  
+  .search-input-container {
+    margin: 0px auto 2rem;
+  }
   .search-input{
     width: 85%;
     padding: 0.8rem 1.5rem;
