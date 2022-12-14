@@ -6,11 +6,24 @@ import './Content.css'
 const Content = () => {
 
     const [data, setData] = useState(jsonData);
+    const [searchInput, setSearchInput] = useState("");
+
+    const handleSearchInput = (e) => {
+        setSearchInput(e.target.value);
+    };
+
+    useEffect(() => {
+        setData(jsonData);
+    }, [searchInput]);
+
 
     return (
         <>
             <div className='content-heading-container'>
                 <h1 className='content-heading'>Hello! How can we help?</h1>
+            </div>
+            <div className='search-input-container'>
+                <input className='search-input' type='text' placeholder='Search' value={searchInput} onChange={handleSearchInput} />
             </div>
             <div className='cards-container'>
                 {
