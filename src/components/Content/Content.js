@@ -5,7 +5,7 @@ import './Content.css'
 
 const Content = () => {
 
-    const [data, setData] = useState(jsonData);
+    const [data, setData] = useState([]);
     const [searchInput, setSearchInput] = useState("");
 
     const handleSearchInput = (e) => {
@@ -13,17 +13,22 @@ const Content = () => {
     };
 
     useEffect(() => {
-        const results = jsonData.filter(card => {
-            let isPresent = false;
-            for (let i = 0; i < card?.blogs?.length; i++) {
-                let blogTitle = card?.blogs[i].title;
-                if (blogTitle.toLowerCase().includes(searchInput.toLowerCase())) {
-                    isPresent = true;
-                    break;
-                }
+        let results = [];
+        for(let i=0; i<jsonData.length; i++)
+        {
+            let card = { ...jsonData[i] };
+            let blogsArr = [];
+            for(let j=0; j<card.blogs.length; j++)
+            {
+                let blogTitle = card.blogs[j].title;
+                let check = blogTitle.toLowerCase().includes(searchInput.toLowerCase());
+                if (check)
+                    blogsArr.push(card.blogs[j]);
             }
-            return isPresent;
-        });
+            card.blogs = blogsArr;
+            if(blogsArr.length>0)
+                results.push(card);
+        }
         setData(results);
     }, [searchInput]);
 
