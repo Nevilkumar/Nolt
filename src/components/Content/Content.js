@@ -13,20 +13,19 @@ const Content = () => {
     };
 
     useEffect(() => {
+        setData([]);
         let results = [];
-        for(let i=0; i<jsonData.length; i++)
-        {
+        for (let i = 0; i < jsonData.length; i++) {
             let card = { ...jsonData[i] };
             let blogsArr = [];
-            for(let j=0; j<card.blogs.length; j++)
-            {
+            for (let j = 0; j < card.blogs.length; j++) {
                 let blogTitle = card.blogs[j].title;
                 let check = blogTitle.toLowerCase().includes(searchInput.toLowerCase());
                 if (check)
                     blogsArr.push(card.blogs[j]);
             }
             card.blogs = blogsArr;
-            if(blogsArr.length>0)
+            if (blogsArr.length > 0)
                 results.push(card);
         }
         setData(results);
@@ -41,6 +40,7 @@ const Content = () => {
             <div className='search-input-container'>
                 <input className='search-input' type='text' placeholder='Search' value={searchInput} onChange={handleSearchInput} />
             </div>
+
             {
                 data.length === 0 ?
                     <div className='no-results__container'>
